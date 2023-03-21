@@ -47,7 +47,7 @@ a{
 }
 
 a:hover{
-    color: blue;
+    color:#7289DA;
     text-decoration: underline;
 }
 
@@ -106,6 +106,10 @@ a:hover{
     flex-direction: row;
 }
 
+.back-grey{
+    background-color: lightgrey;
+}
+
 .block-max{
     width: 55%;
     padding: 30px;
@@ -136,12 +140,15 @@ span{
 /* ultima sezione */
 .last-section{
     min-height: 500px;
-    border: 1px solid black;
-    /* background-color: orange; */
+    background-color: lightgrey;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.last-section span{
+    padding: 0px 200px;
 }
 
 
@@ -160,7 +167,7 @@ span{
     border-radius: 28px;
     padding: 10px;
     border: 0;
-    background-color: blue;
+    background-color: #7289DA;
     color: white;
 }
 
@@ -170,8 +177,9 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blueviolet;
+    background-color: #23272A;
     padding-top: 30px;
+    color: white;
 }
 
 /* prima sezione footer */
@@ -191,12 +199,17 @@ footer{
 #first-div h3{
     line-height: 120%;
     font-weight: 700;
-    color: blue;
+    color: #7289DA;
     padding-bottom: 20px;
 }
 
 #bandiera{
     width: 25px;
+}
+
+.footer-section i{
+    padding-top: 20px;
+    padding-right: 10px;
 }
 
 .second-div{
@@ -211,7 +224,7 @@ footer{
 }
 
 .li-blue{
-    color: blue;
+    color: #7289DA;
 }
 
 /* seconda sezione footer */
@@ -220,7 +233,7 @@ footer{
     width: 80%;
     justify-content: space-between;
     margin-top: 30px;
-    border-top: 2px solid black;
+    color: white;
     padding-top: 10px;
     padding-bottom: 20px;
 }
